@@ -1,0 +1,7 @@
+name: POC external action
+description: Temporary action used to test the cooldown check
+runs:
+  using: composite
+  steps:
+    - run: echo "poc external action"
+      shell: bash
